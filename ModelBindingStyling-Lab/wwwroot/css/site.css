@@ -16,3 +16,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+.gradient-custom {
+    background: hsla(141, 54%, 86%, 1);
+    background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 21%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 85%);
+    background: -moz-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 21%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 85%);
+    background: -webkit-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 21%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 85%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAEFD7", endColorstr="#F5BFD7", GradientType=1 );
+}
